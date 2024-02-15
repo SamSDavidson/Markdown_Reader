@@ -43,9 +43,8 @@ class MainWindow(QMainWindow):
         layout_main.addWidget(self.text_box)
 
         web_view = QWebEngineView()
-        test_url = "https://youtu.be/teet7SEwRdE"
-        file_test_url = "file://///home/sam/Code/Python/mdReader/pages/index.html"
-        web_view.setUrl(QUrl(file_test_url))
+        test_url = "https://google.com"
+        web_view.setUrl(QUrl(test_url))
 
         layout_main.addWidget(web_view)
 
